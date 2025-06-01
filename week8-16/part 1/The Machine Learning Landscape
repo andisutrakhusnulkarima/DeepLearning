@@ -1,0 +1,122 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/andisutrakhusnulkarima/DeepLearning/blob/main/week8-16/part%201/The%20Machine%20Learning%20Landscape\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Panduan Dasar Machine Learning (ML)**\n",
+        "\n",
+        "Machine Learning (ML) adalah cabang dari kecerdasan buatan (Artificial Intelligence/AI) yang memungkinkan komputer untuk belajar dari data dan membuat prediksi atau keputusan tanpa diprogram secara eksplisit. ML sangat berguna untuk menyelesaikan masalah yang kompleks dan tidak dapat dipecahkan dengan aturan tradisional.\n",
+        "\n",
+        "\n",
+        "**Aplikasi Machine Learning di Dunia Nyata**\n",
+        "Rekomendasi produk pada platform e-commerce.\n",
+        "\n",
+        "Deteksi penipuan dalam transaksi keuangan.\n",
+        "\n",
+        "Pengenalan suara dan gambar pada asisten virtual.\n",
+        "\n",
+        "Prediksi cuaca, tren berita, atau harga saham.\n",
+        "\n",
+        "Jenis-Jenis Machine Learning\n",
+        "1. Berdasarkan Tipe Pembelajaran\n",
+        "Supervised Learning\n",
+        "Model dilatih dengan data yang sudah memiliki label (jawaban benar).\n",
+        "Contoh: Klasifikasi gambar sebagai \"anjing\" atau \"kucing\".\n",
+        "\n",
+        "Unsupervised Learning\n",
+        "Model dilatih dengan data tanpa label dan bertugas menemukan pola tersembunyi.\n",
+        "Contoh: Pengelompokan pelanggan berdasarkan kebiasaan belanja.\n",
+        "\n",
+        "2. Berdasarkan Proses Pelatihan\n",
+        "Batch Learning\n",
+        "Model dilatih dengan seluruh data sekaligus. Cocok untuk data yang tidak sering berubah.\n",
+        "Contoh: Melatih model dengan data penjualan dari beberapa tahun terakhir.\n",
+        "\n",
+        "Online Learning\n",
+        "Model dilatih secara bertahap seiring masuknya data baru. Cocok untuk sistem yang terus berubah.\n",
+        "Contoh: Prediksi berita atau cuaca secara real-time.\n",
+        "\n",
+        "3. Berdasarkan Pendekatan Pembelajaran\n",
+        "Instance-Based Learning\n",
+        "Model menyimpan seluruh data pelatihan dan membuat keputusan berdasarkan kemiripan dengan data sebelumnya.\n",
+        "Contoh: Algoritma K-Nearest Neighbors (KNN).\n",
+        "\n",
+        "Model-Based Learning\n",
+        "Model membangun representasi matematis dari data untuk membuat prediksi.\n",
+        "Contoh: Regresi linear untuk memprediksi harga rumah berdasarkan ukuran dan lokasi.\n",
+        "\n",
+        "**Tantangan Utama dalam Machine Learning**\n",
+        "\n",
+        "Data Tidak Cukup\n",
+        "Jumlah data yang sedikit menyebabkan model tidak dapat belajar dengan baik.\n",
+        "\n",
+        "Data Tidak Representatif\n",
+        "Data pelatihan yang tidak mencerminkan kondisi nyata menyebabkan model tidak efektif saat diterapkan.\n",
+        "\n",
+        "Data Berkualitas Buruk\n",
+        "Data yang mengandung kesalahan atau noise dapat menghasilkan prediksi yang salah.\n",
+        "\n",
+        "**Fitur Tidak Relevan**\n",
+        "\n",
+        "Informasi yang tidak berkaitan dengan masalah dapat mengganggu proses pembelajaran.\n",
+        "\n",
+        "Overfitting\n",
+        "\n",
+        "Model terlalu menyesuaikan diri dengan data pelatihan, sehingga gagal beradaptasi dengan data baru.\n",
+        "\n",
+        "Underfitting\n",
+        "\n",
+        "Model terlalu sederhana dan tidak mampu menangkap pola dalam data.\n",
+        "\n",
+        "Uji dan Validasi Model\n",
+        "Pengujian model dilakukan menggunakan data yang tidak digunakan selama pelatihan.\n",
+        "Tujuannya adalah memastikan bahwa model mampu membuat prediksi yang akurat pada data baru.\n",
+        "Validasi silang (cross-validation) dapat digunakan untuk mengevaluasi performa model secara lebih adil.\n",
+        "\n",
+        "**Penalaan Hyperparameter dan Pemilihan Model**\n",
+        "\n",
+        "Hyperparameter adalah pengaturan awal sebelum pelatihan, seperti learning rate atau jumlah lapisan dalam jaringan syaraf tiruan.\n",
+        "\n",
+        "Pemilihan model yang tepat sangat penting, tergantung pada jenis data dan tujuan prediksi.\n",
+        "\n",
+        "**Ketidaksesuaian Data**\n",
+        "\n",
+        "Jika data pelatihan tidak sesuai dengan kondisi data pengujian, model akan kesulitan dalam menghasilkan prediksi yang akurat.\n",
+        "Solusinya adalah memastikan data pelatihan mencerminkan situasi sebenarnya.\n",
+        "\n",
+        "**Latihan**\n",
+        "\n",
+        "Latihan adalah bagian penting dari proses belajar Machine Learning.\n",
+        "Melalui eksperimen langsung dan proyek praktis, kita dapat memahami bagaimana cara mengatasi overfitting, memilih model yang sesuai, dan meningkatkan performa secara menyeluruh."
+      ],
+      "metadata": {
+        "id": "vgC-ifYOxN-h"
+      }
+    }
+  ]
+}
